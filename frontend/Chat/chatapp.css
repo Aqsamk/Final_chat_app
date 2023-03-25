@@ -1,0 +1,90 @@
+/* Create Group Modal */
+.modal {
+    display: none; /* Hide the modal by default */
+    position: fixed; /* Set the modal to fixed positioning */
+    z-index: 1; /* Set the z-index to make sure the modal appears on top of other elements */
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    /* overflow: auto; Enable scrolling if the content overflows */
+    background-color: rgba(0,0,0,0.4); /* Set a semi-transparent black background */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  /* Close button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Form fields */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Submit button */
+  form button[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+
+
+
+  #create-group-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #create-group-form input[type="text"] {
+    margin-bottom: 10px;
+  }
+  
+  #create-group-form textarea {
+    margin-bottom: 10px;
+    height: 50px;
+    resize: none;
+    padding: 5px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
